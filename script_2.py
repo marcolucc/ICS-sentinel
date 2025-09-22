@@ -1,5 +1,4 @@
-# Update the MITRE mapper with Marco's information and clean up AI language
-mitre_mapper_code = '''"""
+"""
 MITRE ATT&CK for ICS Integration Module
 
 Provides integration with the MITRE ATT&CK for ICS framework for automatic 
@@ -525,10 +524,3 @@ class MitreMapper:
                 "percentage": (covered_techniques / total_techniques) * 100
             }
         }
-'''
-
-# Save updated MITRE mapper
-with open('mitre_mapper.py', 'w') as f:
-    f.write(mitre_mapper_code)
-
-print("✅ Updated MITRE mapper with Marco's information")

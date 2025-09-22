@@ -1,5 +1,4 @@
-# Update the Sigma engine with Marco's information and clean up AI language
-sigma_engine_code = '''"""
+"""
 Sigma Rules Engine for ICS Environments
 
 Custom Sigma rules engine designed for Industrial Control Systems,
@@ -651,10 +650,3 @@ class SigmaEngine:
             })
             
         return rules_summary
-'''
-
-# Save updated Sigma engine
-with open('sigma_engine.py', 'w') as f:
-    f.write(sigma_engine_code)
-
-print("✅ Updated Sigma engine with Marco's information")

@@ -1,5 +1,4 @@
-# Update the main framework code with Marco's information
-main_code = '''"""
+"""
 ICS Security Sentinel - Main Framework Class
 
 Industrial Control Systems Security Monitoring and Threat Detection Framework
@@ -393,10 +392,3 @@ class SecuritySentinel:
             "ml_detection_enabled": self.threat_detector.ml_enabled,
             "sigma_rules_loaded": self.sigma_engine.get_rules_count()
         }
-'''
-
-# Save updated main code
-with open('ics_security_sentinel.py', 'w') as f:
-    f.write(main_code)
-
-print("✅ Updated main framework code with Marco's information")
