@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 ICS Security Sentinel - Demonstration Script
 
